@@ -1,0 +1,133 @@
+/*Base*/
+
+
+/*Services*/
+
+.services__background {
+    height: 52vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block__text {
+    padding: 43px 0;
+    font-size: 2.4rem;
+    color: var(--main-black);
+}
+
+
+.info__cards .container {
+    display: flex;
+    gap: 5rem;
+    padding: 5rem 14px;
+}
+
+.info__card {
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 25%);
+    padding: 20px 20px;
+    flex: 1;
+    min-height: 328px;
+    border-radius: 9px;
+    transition: all 0.8s ease;
+    color: #767676;
+}
+
+.info__card a{
+    text-decoration: underline;
+}
+
+.info__card h1 {
+    color: var(--main-black);
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.info__card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+/*Privacy*/
+
+.privacy__title h1, .imprint__title h1 {
+    font-size: 6.4rem;
+    color: var(--main-blue);
+    padding: 13rem 0 0 0;
+    margin: 0 0 7rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.privacy__block:not(:last-child) > *, .imprint__block:not(:last-child) > * {
+    margin: 0 0 1.8rem 0;
+}
+
+.privacy__block:not(:last-child), .imprint__block:not(:last-child) {
+    margin: 0 0 4rem 0;
+}
+
+.privacy__block:last-child, .imprint__block:last-child {
+    padding: 0 0 7rem 0;
+}
+
+.privacy__block h1 , .imprint__block h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.privacy__block h2 , .imprint__block h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.privacy__block p , .imprint__block p {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.privacy__block span {
+    padding: 0 0 0 1.2rem;
+    display: block;
+    position: relative;
+}
+
+.privacy__block span::before {
+    content: "";
+    left: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--main-black);
+    position: absolute;
+}
+
+.privacy__block a {
+    color: var(--main-blue);
+}
+
+
+
+
+
+
+
+
+/*digital*/
+
+
+.digital-card p{
+    background: white;
+    border-radius: 9px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 25%);
+    padding: 20px 20px;
+}
+
+
+
+
+
